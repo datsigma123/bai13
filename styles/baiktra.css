@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:auto;}
+.khung{
+	width:960px;
+	height:150px;
+	border:solid 1px black;
+}
+.tren{
+	width:960px;
+}
+.anh1{
+	height:60px;
+	transform: translate(5px,5px);
+}
+.anh2{
+	float:right;
+	padding-top:10px;
+}
+.vien{
+	background:#EBE7E7;
+	height:4px;
+}
+.otimkiem{
+	height:40px;
+	width:300px;
+	border-radius: 20px;
+	transform: translate(30px,-20px);
+	background-color:#EBE7E7;
+	border:solid 0px;
+}
+.menu{
+	padding-top:15px;
+}
+.menu a{
+	padding-left:50px;
+	text-decoration: none;
+	color:black;
+}
+.menu a:hover{
+	color:red;
+}
